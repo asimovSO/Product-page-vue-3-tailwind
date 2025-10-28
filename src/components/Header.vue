@@ -1,5 +1,5 @@
 <template>
-    <header class="container flex justify-between items-center py-7 border-b border-dotted border-slate-500">
+    <header class="header container flex justify-between items-center py-7 border-b border-dashed border-slate-400">
         <div class="cursor-pointer">
             <img src="/img/logo.png" alt="Logo">
         </div>
@@ -23,3 +23,8 @@
         </div>
     </header>
 </template>
+<style scoped>
+.header > * {
+    cursor: pointer;
+}
+</style>
