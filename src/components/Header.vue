@@ -7,18 +7,21 @@
             <div class="search">
                 <img src="/icons/search.svg" alt="search">
             </div>
-            <div class="categories">
+            <div class="categories hidden md:block">
                 <span>Categories</span>
             </div>
-            <div class="auth flex items-center gap-2">
+            <div class="auth md:flex items-center gap-2 hidden">
                 <img src="/icons/profile.svg" alt="I">
                 <span>Sign in</span>
             </div>
-            <div class="favorites">
+            <div class="favorites hidden md:block">
                 <img src="/icons/heart.svg" alt="Favorite">
             </div>
             <div class="cart">
                 <img src="/icons/cart.svg " alt="Cart" >
+            </div>
+            <div class="burger md:hidden">
+                <img src="/icons/burger.svg" alt="Menu">
             </div>
         </div>
     </header>

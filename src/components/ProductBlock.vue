@@ -1,9 +1,11 @@
 <template>
   <div class="container">
-    <div class="flex justify-between">
+    <div class="flex flex-col items-center md:flex-row justify-center md:justify-between flex-wrap gap-4 md:gap-0">
+
       <div class="flex-1">
         <img src="/img/models/model_main.png" alt="" srcset="" />
       </div>
+
       <div class="flex-1">
         <div class="text-3xl font-bold mb-3">
           <h1>Long Sleeve Overshirt, Khaki, 6</h1>
@@ -48,7 +50,7 @@
           :isColor="true"
           :valuesToPick="all_colors"
         />
-        <div class="flex gap-2 my-10">
+        <div class="flex flex-col md:flex-row gap-2 my-10">
           <button class="flex-1 rounded bg-black text-white py-4 font-semibold cursor-pointer active:opacity-25 transition">Add To Cart</button>
           <button class="flex-1 rounded border border-slate-300 py-4 font-semibold cursor-pointer active:opacity-25 transition">Checkout Now</button>
         </div>
