@@ -5,6 +5,8 @@ import Breadcrumbs from "./components/Breadcrumbs.vue";
 import ProductBlock from "./components/ProductBlock.vue";
 import Suggestions from "./components/Suggestions.vue";
 import DashedLine from "./components/DashedLine.vue";
+import ReviewsBlock from "./components/ReviewsBlock.vue";
+
 </script>
 
 <template>
@@ -16,6 +18,10 @@ import DashedLine from "./components/DashedLine.vue";
     <div class="container"><dashed-line /></div>
     <Suggestions name="Related products" />
     <div class="container"><dashed-line /></div>
+    <ReviewsBlock />
+    <div class="container">
+      <dashed-line />
+    </div>
   </div>
 </template>
 

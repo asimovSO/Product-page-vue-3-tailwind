@@ -13,7 +13,7 @@
     <div class="flex items-center gap-4 text-sm text-slate-500">
       <div>
         <img src="/icons/star.svg" alt="rate" class="inline-block mr-1" />
-        <span class="text-black font-medium">{{ rating }}</span>
+        <span class="text-black font-medium text-base">{{ rating }}</span>
       </div>
       <div>Sold: {{ numberOfSold }}</div>
     </div>
