@@ -7,7 +7,7 @@
       class="w-full grid md:grid-cols-8 md:justify-between gap-2 md:gap-5"
     >
       <div class="1 md:col-span-8 flex flex-wrap md:flex-nowrap gap-12 md:gap-2 items-start justify-between border border-slate-300 border-dashed p-6 rounded">
-        <div class="flex items-center gap-4 w-full">
+        <div class="flex items-center gap-4 md:w-2/5">
           <div
             class="rate-number w-fit p-6 rounded-full border-4 border-orange-300 text-xl font-semibold"
           >
@@ -34,7 +34,7 @@
       </div>
 
       <div class="3 border border-blue-700 md:col-span-6">
-        
+        <ReviewsList />
       </div>
     </div>
   </div>
@@ -42,4 +42,5 @@
 <script setup>
 import ReviewsRangeBlock from "./ReviewsRangeBlock.vue";
 import ReviewsFiltersBlock from "./ReviewsFiltersBlock.vue";
+import ReviewsList from "./ReviewsList.vue";
 </script>

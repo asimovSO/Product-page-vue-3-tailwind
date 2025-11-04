@@ -5,7 +5,7 @@
       :key="idx"
       class="flex items-center gap-3 h-10"
     >
-      <div class="flex items-center gap-1.5">
+      <div class="flex items-center gap-1.5 font-medium">
         <img src="/icons/star.svg" alt="star" />
         <span>{{ 5 - idx }}.0</span>
       </div>
@@ -15,7 +15,7 @@
           :value="(Math.random() * 100).toFixed(0)"
           max="100"></progress>
       </div>
-      <div class="number_reviews">2234</div>
+      <div class="number_reviews font-medium">2234</div>
     </div>
   </div>
 </template>
