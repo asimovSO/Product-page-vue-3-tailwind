@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex justify-between items-center pt-12 mt-12">
+  <footer class="flex flex-wrap justify-between items-center pt-12 mt-12">
     <div class="subsciption_block mb-12">
       <img src="/img/logo.png" alt="Logo" class="my-8" />
       <div>
@@ -54,7 +54,7 @@
       </div>
     </div>
   </footer>
-    <div class="border-b border-dashed border-slate-300 my-12"></div>
+  <div class="border-b border-dashed border-slate-300 my-12"></div>
 </template>
 <script setup>
 </script>
