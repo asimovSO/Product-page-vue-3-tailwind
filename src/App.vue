@@ -6,6 +6,7 @@ import ProductBlock from "./components/ProductBlock.vue";
 import Suggestions from "./components/Suggestions.vue";
 import DashedLine from "./components/DashedLine.vue";
 import ReviewsBlock from "./components/ReviewsBlock.vue";
+import Footer from "./components/Footer.vue";
 
 </script>
 
@@ -21,6 +22,10 @@ import ReviewsBlock from "./components/ReviewsBlock.vue";
     <ReviewsBlock />
     <div class="container">
       <dashed-line />
+    </div>
+    <Suggestions name="Popular this week" />
+    <div class="container">
+      <Footer />
     </div>
   </div>
 </template>
