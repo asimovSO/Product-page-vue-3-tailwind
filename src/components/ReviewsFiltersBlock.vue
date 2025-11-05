@@ -1,5 +1,5 @@
 <template>
-  <div class="border border-slate-300 rounded border-dashed p-6 w-full">
+  <div class="border border-slate-300 rounded border-dashed p-6 w-full hidden md:block">
     <div>
       <span class="text-xl font-semibold">Reviews Filter</span>
     </div>

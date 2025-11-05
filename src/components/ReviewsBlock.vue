@@ -33,7 +33,7 @@
         <reviews-filters-block />
       </div>
 
-      <div class="3 border border-blue-700 md:col-span-6">
+      <div class="3 md:col-span-6 py-8.5">
         <ReviewsList />
       </div>
     </div>
@@ -42,5 +42,5 @@
 <script setup>
 import ReviewsRangeBlock from "./ReviewsRangeBlock.vue";
 import ReviewsFiltersBlock from "./ReviewsFiltersBlock.vue";
-import ReviewsList from "./ReviewsList.vue";
+import ReviewsList from './ReviewsList.vue';
 </script>
